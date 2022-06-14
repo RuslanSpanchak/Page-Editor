@@ -1,0 +1,475 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-size: cover;
+}
+
+.wrap {
+	width: 100%;
+	height: 100vh;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+	padding: 0px 50px;
+}
+
+.head {
+	margin-top: 25px;
+}
+
+.txt {
+	margin-top: 25px;
+}
+
+.settingsWindow {
+	width: 1000px;
+	height: 450px;
+
+	background-color: rgba(0, 0, 0, 0.8);
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+
+	position: absolute;
+	top: 0;
+	left: 300px;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+	color: white;
+	font-family: monospace;
+}
+
+.settings_container {
+	background-color: white;
+	border-radius: 10px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	margin-top: 10px;
+	padding: 5px 25px;
+
+	position: relative;
+	left: 100px;
+}
+
+.layout {
+	position: relative;
+	left: 260px;
+
+	padding: 0px 15px;
+
+	border-radius: 15px;
+
+	cursor: pointer;
+	transition: .0s linear;
+}
+
+.layout:hover {
+	background-color: #999;
+}
+
+.settings {
+	font-size: 35px;
+	font-weight: 900;
+	color: black;
+
+	margin-left: 10px;
+}
+
+.layout_tetx {
+	font-size: 20px;
+}
+
+.style_tytle {
+	font-size: 35px;
+}
+
+.setting_row {
+	display: flex;
+}
+
+.font_size {
+	position: relative;
+	right: 30px;
+
+	margin-top: 15px;
+
+	font-weight: 900;
+	font-size: 25px;
+}
+
+.font_size_container {
+	width: 390px;
+	height: 40px;
+
+	background-color: white;
+	border-radius: 10px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	color: black;
+
+	margin-top: 5px;
+}
+
+.radio_item {
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.font_family_flex {
+	display: flex;
+}
+
+.font_family {
+	position: relative;
+	left: 30px;
+
+	margin-top: 15px;
+
+	font-weight: 900;
+	font-size: 25px;
+}
+
+.font {
+	font-weight: 900;
+	font-size: 20px;
+
+	margin-left: 10px;
+	margin-top: 10px;
+
+	padding: 5px;
+
+	border-radius: 5px;
+
+	cursor: pointer;
+	transition: .1s linear;
+}
+
+.font:hover {
+	background-color: white;
+
+	color: black;
+}
+
+.font_active {
+	background-color: white;
+	border-radius: 5px;
+
+	color: black;
+}
+
+.tetx_color {
+	position: relative;
+	right: 30px;
+
+	margin-top: 25px;
+
+	font-weight: 900;
+	font-size: 25px;
+}
+
+.palitra {
+	width: 366px;
+	height: 55px;
+
+	border: 1px solid #fff;
+
+	margin-top: 5px;
+
+	display: flex;
+	justify-content: center;
+}
+
+.row {
+	display: flex;
+}
+
+.row_item {
+	padding: 25px 25px;
+	border: 1px solid #000;
+
+	cursor: pointer;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.white {
+	background-color: white;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.pink {
+	background-color: pink;
+}
+
+.black {
+	background-color: black;
+}
+
+.grey {
+	background-color: grey;
+}
+
+.lightgrey {
+	background-color: lightgrey;
+}
+
+.background_color {
+	position: relative;
+	left: 55px;
+
+	margin-top: 25px;
+
+	font-weight: 900;
+	font-size: 25px;
+}
+
+.red_bg {
+	background-color: red;
+}
+
+.green_bg {
+	background-color: green;
+}
+
+.blue_bg {
+	background-color: blue;
+}
+
+.white_bg {
+	background-color: white;
+}
+
+.orange_bg {
+	background-color: orange;
+}
+
+.pink_bg {
+	background-color: pink;
+}
+
+.black_bg {
+	background-color: black;
+}
+
+.grey_bg {
+	background-color: grey;
+}
+
+.lightgrey_bg {
+	background-color: lightgrey;
+}
+
+.letter_spacing {
+	position: relative;
+	right: 30px;
+
+	margin-top: 25px;
+
+	font-weight: 900;
+	font-size: 25px;
+}
+
+.input_container {
+	width: 200px;
+	height: 40px;
+
+	background-color: white;
+	border-radius: 10px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	margin-top: 5px;
+
+	font-size: 35px;
+}
+
+.spacingView {
+	color: black;
+
+	margin-left: 15px;
+}
+
+.language {
+	position: relative;
+	left: 130px;
+
+	margin-top: 25px;
+
+	font-weight: 900;
+	font-size: 25px;
+}
+
+.text_style_container {
+	width: 300px;
+	height: 40px;
+
+	background-color: white;
+	border-radius: 10px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	color: black;
+
+	margin-top: 5px;
+}
+
+.settingsWindow_header {
+	display: flex;
+}
+
+.layout_choose {
+	/*transition: .5s linear;*/
+}
+
+.row_layout {
+	display: flex;
+}
+
+.row_layout_items {
+	width: 200px;
+	height: 150px;
+
+	border: 3px solid white;
+	border-radius: 25px;
+
+	margin: 25px;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+
+	cursor: pointer;
+	transition: .3s linear;
+}
+
+.row_layout_items:hover {
+	border: 3px solid black;
+}
+
+.layout_blue {
+	background-image: url(https://img.freepik.com/free-vector/leaves-background-with-metallic-foil_79603-956.jpg?w=2000);
+}
+
+.layout_green {
+	background-image: url(https://img5.goodfon.ru/wallpaper/nbig/f/8a/abstraktsiia-fon-linii-background.jpg);
+}
+
+.layout_lightblue {
+	background-image: url(https://img.freepik.com/free-vector/neon-lights-background-theme_52683-44625.jpg?w=2000);
+	background-size: cover;
+}
+
+.layout_purpule {
+	background-image: url(https://img.freepik.com/free-vector/watercolor-nature-background-with-leaves_52683-59449.jpg?w=2000);
+	background-size: cover;
+}
+
+.layout_pink {
+	background-size: cover;
+	background-image: url(data:image/jpeg;base64,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);
+}
+
+.layout_darkgreen {
+	background-image: url(https://media.istockphoto.com/photos/leaf-background-picture-id844226534?k=20&m=844226534&s=612x612&w=0&h=0s5eix34N-rY2K7kHmdCG5ANURpfjWWFeJ0ITW6jIdI=);
+	background-size: cover;
+}
+
+.layout_orange {
+	background-image: url(https://wallpapercave.com/wp/wp2570989.jpg);
+	background-size: cover;
+}
+
+.layout_secret {
+	background-color: white;
+	background-size: cover;
+	border: 3px solid black;
+
+	justify-content: center;
+}
+
+.layout_secret:hover {
+	border: 3px solid #999;
+}
+
+.layout_text_more {
+	width: 175px;
+	height: 75px;
+
+	border-radius: 15px;
+	background-color: #111;
+
+	margin-top: 15px;
+}
+
+.layout_blue_text {
+	width: 100px;
+	height: 25px;
+
+	background-color: #111;
+	border-radius: 25px;
+
+	margin-top: 15px;
+}
+
+.layout_green_text {
+	background-color: #333;
+}
+
+.layout_lightblue_text {
+	background-color: #555;
+}
+
+.layout_pink_text {
+	background-color: #777;
+}
+
+.layout_darkgreen_text {
+	background-color: #999;
+}
+
+.layout_orange_text {
+	background-color: #777;
+}
+
+.settings_choose {
+	/*transition: .5s linear;*/
+}
+
+/*.btn {
+	width: 100px;
+	height: 100px;
+
+	background-color: black;
+	border-radius: 50%;
+}*/
